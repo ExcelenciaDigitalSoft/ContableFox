@@ -832,60 +832,6 @@ _1LO0O3C3G_1LO0O3BO3_1LO0O3C3HN _1LO0NIO44            0   0   0   0             
 
 
 --------------------------------------------------------------------------------
-TABLA: COSEGURO002
-ARCHIVO: V:\VOLEYNUEVO\CONTA-UPCN\COSEGURO002.DBF
-ESTRUCTURA DE CAMPOS:
-  EMISION              Tipo: D Long: 8 Dec: 0
-  VTO                  Tipo: D Long: 8 Dec: 0
-  NUMERO               Tipo: C Long: 11 Dec: 0
-  OBS                  Tipo: C Long: 29 Dec: 0
-  IMPORTE              Tipo: N Long: 10 Dec: 2
-  OBSERV               Tipo: C Long: 100 Dec: 0
-INDICES (CDX):
-  Tag: NUMERO  Key: NUMERO
-DATOS (MUESTRA HASTA 10 REGISTROS - FORMATO SDF):
-EMISION VTO     NUMERO     OBS                          IMPORTE   OBSERV                                                                                              
-03/20/1203/20/120045016901 MART÷N M‡NICA                240       existe                                                                                              
-07/18/1207/18/120045300625 MART÷N MONICA                240       existe                                                                                              
-11/06/1211/06/120045485828 CHAVEZ SIRIACO               640       existe                                                                                              
-11/21/1211/21/120045485902 GONZALEZ ANTONIA             810       existe                                                                                              
-12/03/1212/03/120045485917 ROMERO ESTELA                990       existe                                                                                              
-12/07/1212/07/120045485931 OZµN MAR÷A                   1315      existe                                                                                              
-12/10/1212/10/120045485945 A CUENTA CAPITAS DICIEMBRE-1250000     existe                                                                                              
-12/10/1212/10/120045485944 A CUENTA CAPITAS DICIEMBRE-1250000     existe                                                                                              
-12/10/1212/10/120045485946 A CUENTA CAPITAS DICIEMBRE-1250000     existe                                                                                              
-12/10/1212/10/120045485943 A CUENTA CAPITAS DICIEMBRE-1250000     existe                                                                                              
-
-
-
---------------------------------------------------------------------------------
-TABLA: COSEGURO003
-ARCHIVO: V:\VOLEYNUEVO\CONTA-UPCN\COSEGURO003.DBF
-ESTRUCTURA DE CAMPOS:
-  EMISION              Tipo: D Long: 8 Dec: 0
-  VTO                  Tipo: D Long: 8 Dec: 0
-  NUMERO               Tipo: C Long: 11 Dec: 0
-  OBS                  Tipo: C Long: 29 Dec: 0
-  IMPORTE              Tipo: N Long: 10 Dec: 2
-  OBSERV               Tipo: C Long: 100 Dec: 0
-INDICES (CDX):
-  Tag: NUMERO  Key: NUMERO
-DATOS (MUESTRA HASTA 10 REGISTROS - FORMATO SDF):
-EMISION VTO     NUMERO     OBS                          IMPORTE   OBSERV                                                                                              
-05/23/1205/23/120045232004 ABRIL-12                     462       existe                                                                                              
-06/25/1206/25/120045340592 MAYO-12                      500       existe                                                                                              
-06/25/1206/25/120045340579 MAYO-12                      400       existe                                                                                              
-07/03/1207/03/120045340634 JUNIO 2012                   270       existe                                                                                              
-07/11/1207/11/120045340688 CUOTA 10/10                  23600     existe                                                                                              
-07/13/1207/13/120045340735 PAGO REINTERGO K09- N∫ 3671  690       existe                                                                                              
-07/19/1207/19/120045340793 JUNIO-12                     950       existe                                                                                              
-07/19/1207/19/120045340801 JUNIO-12                     1000      existe                                                                                              
-07/19/1207/19/120045340784 JUNIO y JULIO-12             340       existe                                                                                              
-06/25/1207/22/120045000754 PAGO FACTURA N∫ 941          1200      existe                                                                                              
-
-
-
---------------------------------------------------------------------------------
 TABLA: CUENCONT
 ARCHIVO: V:\VOLEYNUEVO\CONTA-UPCN\CUENCONT.DBF
 ESTRUCTURA DE CAMPOS:
@@ -1022,59 +968,6 @@ ESTRUCTURA DE CAMPOS:
   PEND_REG             Tipo: N Long: 1 Dec: 0
 INDICES (CDX):
   Tag: CHEQUE  Key: CODIGO_BAN+CHEQUERA+NUMERO_COM
-
-
---------------------------------------------------------------------------------
-TABLA: DEPOSITO1
-ARCHIVO: V:\VOLEYNUEVO\CONTA-UPCN\DEPOSITO1.DBF
-ESTRUCTURA DE CAMPOS:
-  CODIGO_BAN           Tipo: C Long: 3 Dec: 0
-  NUMERO_COM           Tipo: C Long: 6 Dec: 0
-  FECHA_EMIS           Tipo: D Long: 8 Dec: 0
-  FECHA_VENC           Tipo: D Long: 8 Dec: 0
-  FECHA_INGR           Tipo: D Long: 8 Dec: 0
-  IMPORTE              Tipo: N Long: 10 Dec: 2
-  DETALLE              Tipo: C Long: 50 Dec: 0
-  TIPO_MOVIM           Tipo: C Long: 3 Dec: 0
-  ORDEN_DE_P           Tipo: C Long: 6 Dec: 0
-  DEBE_HABER           Tipo: C Long: 1 Dec: 0
-  ORDEN_DE_I           Tipo: C Long: 6 Dec: 0
-  ORDCA                Tipo: C Long: 6 Dec: 0
-  ORDSOC               Tipo: C Long: 6 Dec: 0
-  ORDESC               Tipo: C Long: 6 Dec: 0
-  INGCA                Tipo: C Long: 6 Dec: 0
-  INGSOC               Tipo: C Long: 6 Dec: 0
-  INGESC               Tipo: C Long: 6 Dec: 0
-  ORDEN                Tipo: C Long: 6 Dec: 0
-  REGISTRO             Tipo: N Long: 10 Dec: 0
-INDICES (CDX):
-
-
---------------------------------------------------------------------------------
-TABLA: DEPOSITO2
-ARCHIVO: V:\VOLEYNUEVO\CONTA-UPCN\DEPOSITO2.DBF
-ESTRUCTURA DE CAMPOS:
-  CODIGO_BAN           Tipo: C Long: 3 Dec: 0
-  CHEQUERA             Tipo: C Long: 6 Dec: 0
-  NUMERO_COM           Tipo: C Long: 6 Dec: 0
-  FECHA_EMIS           Tipo: D Long: 8 Dec: 0
-  FECHA_VENC           Tipo: D Long: 8 Dec: 0
-  FECHA_INGR           Tipo: D Long: 8 Dec: 0
-  IMPORTE              Tipo: N Long: 14 Dec: 2
-  DETALLE              Tipo: C Long: 50 Dec: 0
-  TIPO_MOVIM           Tipo: C Long: 3 Dec: 0
-  ORDEN_DE_P           Tipo: C Long: 6 Dec: 0
-  DEBE_HABER           Tipo: C Long: 1 Dec: 0
-  ORDEN_DE_I           Tipo: C Long: 6 Dec: 0
-  ORDCA                Tipo: C Long: 6 Dec: 0
-  ORDSOC               Tipo: C Long: 6 Dec: 0
-  ORDESC               Tipo: C Long: 6 Dec: 0
-  INGCA                Tipo: C Long: 6 Dec: 0
-  INGSOC               Tipo: C Long: 6 Dec: 0
-  INGESC               Tipo: C Long: 6 Dec: 0
-  ORDEN                Tipo: C Long: 6 Dec: 0
-  REGISTRO             Tipo: N Long: 10 Dec: 0
-INDICES (CDX):
 
 
 --------------------------------------------------------------------------------
@@ -1277,19 +1170,6 @@ DATOS (MUESTRA HASTA 10 REGISTROS - FORMATO SDF):
 CODNOMBRE                                            GRUPO 
                                                            
 
-
-
---------------------------------------------------------------------------------
-TABLA: DETFACAUX
-ARCHIVO: V:\VOLEYNUEVO\CONTA-UPCN\DETFACAUX.DBF
-ESTRUCTURA DE CAMPOS:
-  CODIGO               Tipo: C Long: 6 Dec: 0
-  DETALLE              Tipo: C Long: 40 Dec: 0
-  CANTIDAD             Tipo: N Long: 10 Dec: 3
-  IMPORTE              Tipo: N Long: 10 Dec: 4
-  TOTAL                Tipo: N Long: 10 Dec: 2
-  REGISTRO             Tipo: N Long: 10 Dec: 0
-INDICES (CDX):
 
 
 --------------------------------------------------------------------------------
@@ -2229,28 +2109,6 @@ NIVNOMBRE                        IDPANOMCLAVE
 
 
 --------------------------------------------------------------------------------
-TABLA: OBRAS_SOCIALES
-ARCHIVO: V:\VOLEYNUEVO\CONTA-UPCN\OBRAS_SOCIALES.DBF
-ESTRUCTURA DE CAMPOS:
-  CODIGO               Tipo: C Long: 3 Dec: 0
-  NOMBRE               Tipo: C Long: 50 Dec: 0
-  CENTRO_FAC           Tipo: C Long: 6 Dec: 0
-  NOMCENTRO            Tipo: C Long: 40 Dec: 0
-  DIRECCION            Tipo: C Long: 80 Dec: 0
-  TELEFONO             Tipo: C Long: 12 Dec: 0
-  EMAIL                Tipo: C Long: 50 Dec: 0
-  CONDICION_IVA        Tipo: C Long: 20 Dec: 0
-  DIAS_PRESENTACION    Tipo: N Long: 2 Dec: 0
-INDICES (CDX):
-  Tag: NOMBRE  Key: NOMBRE
-  Tag: CODIGO  Key: CODIGO
-DATOS (MUESTRA HASTA 10 REGISTROS - FORMATO SDF):
-CODNOMBRE                                            CENTRONOMCENTRO                               DIRECCION                                                                       TELEFONO    EMAIL                                             CONDICION_IVA       DI
-                                                                                                                                                                                                                                                                     0 
-
-
-
---------------------------------------------------------------------------------
 TABLA: OPERADORES
 ARCHIVO: V:\VOLEYNUEVO\CONTA-UPCN\OPERADORES.DBF
 ESTRUCTURA DE CAMPOS:
@@ -2660,30 +2518,6 @@ INDICES (CDX):
 
 
 --------------------------------------------------------------------------------
-TABLA: PROBLEMAS_ASIENTOS
-ARCHIVO: V:\VOLEYNUEVO\CONTA-UPCN\PROBLEMAS_ASIENTOS.DBF
-ESTRUCTURA DE CAMPOS:
-  FECHA                Tipo: D Long: 8 Dec: 0
-  TIPO                 Tipo: I Long: 4 Dec: 0
-  ERROR                Tipo: C Long: 150 Dec: 0
-  IDCAJA               Tipo: I Long: 4 Dec: 0
-INDICES (CDX):
-DATOS (MUESTRA HASTA 10 REGISTROS - FORMATO SDF):
-FECHA   TIPOERROR                                                                                                                                                 IDCA
-  /  /  0   El Debe es Distinto al Haber                                                                                                                          0   
-  /  /  0   El Debe es Distinto al Haber                                                                                                                          0   
-  /  /  0   El Debe es Distinto al Haber                                                                                                                          0   
-  /  /  0   El Debe es Distinto al Haber                                                                                                                          0   
-  /  /  0   El Debe es Distinto al Haber                                                                                                                          0   
-  /  /  0   El Debe es Distinto al Haber                                                                                                                          0   
-  /  /  0   El Debe es Distinto al Haber                                                                                                                          0   
-  /  /  0   El Debe es Distinto al Haber                                                                                                                          0   
-  /  /  0   El Debe es Distinto al Haber                                                                                                                          0   
-  /  /  0   El Debe es Distinto al Haber                                                                                                                          0   
-
-
-
---------------------------------------------------------------------------------
 TABLA: PROVEEDORES
 ARCHIVO: V:\VOLEYNUEVO\CONTA-UPCN\PROVEEDORES.DBF
 ESTRUCTURA DE CAMPOS:
@@ -2786,41 +2620,6 @@ CODIGONOMBRE                                          CUIT       CUENTASECPROVIN
 000113OPTICA BIRLE                                    20067529430210113001SAN JUAN            Resp.Inscripto      
 000190EMP VALLECITO SRL                                          210190001SAN JUAN            Resp.Inscripto      
 000223INSTITUTO UPCN                                  30673314593210223001SAN JUAN            Resp.Inscripto      
-
-
-
---------------------------------------------------------------------------------
-TABLA: PROVEEXCEL2
-ARCHIVO: V:\VOLEYNUEVO\CONTA-UPCN\PROVEEXCEL2.DBF
-ESTRUCTURA DE CAMPOS:
-  COD_VIEJO            Tipo: C Long: 6 Dec: 0
-  CODIGO               Tipo: C Long: 6 Dec: 0
-  NOMBRE               Tipo: C Long: 50 Dec: 0
-  CUENTA               Tipo: C Long: 6 Dec: 0
-  CUEN_GASTO           Tipo: C Long: 6 Dec: 0
-  PROVINCIA            Tipo: C Long: 13 Dec: 0
-  CONDICION            Tipo: C Long: 20 Dec: 0
-  CUIT                 Tipo: C Long: 11 Dec: 0
-  BRUTOS               Tipo: C Long: 15 Dec: 0
-  DOMICILIO            Tipo: C Long: 50 Dec: 0
-  LOCALIDAD            Tipo: C Long: 15 Dec: 0
-  COD_POS              Tipo: C Long: 5 Dec: 0
-  TELEFONO             Tipo: C Long: 50 Dec: 0
-  CODPROOC             Tipo: C Long: 10 Dec: 0
-INDICES (CDX):
-  Tag: CODIGO  Key: CODIGO
-DATOS (MUESTRA HASTA 10 REGISTROS - FORMATO SDF):
-COD_VICODIGONOMBRE                                            CUENTACUEN_GPROVINCIA    CONDICION           CUIT       BRUTOS         DOMICILIO                                         LOCALIDAD      COD_PTELEFONO                                          CODPROOC  
-      1     ARIEL EVENTOS                                     201001103001San Juan     Resp.Inscripto                 RIVADAVIA      5400                                              4225262        I21                                                              
-      2     AYUDA ACCION SOCIAL                               201002103001San Juan     Resp.Inscripto                 SAN JUAN       5400                                              4273131        V85                                                              
-      3     BABY STORE                                        201003103001Capital FederResp.Inscripto                 LAPRIDA 27     5400                                              42333634       I30                                                              
-      4     BANCO PATAGONIA                                   201004103001San Juan     Resp.Inscripto                                0                                                                X91                                                              
-      5     BCO SERVICIOS Y TRANSACCIONES                     201005103001San Juan     Resp.Inscripto                 BUENOS AIR     0                                                 0              X35                                                              
-      6     CAFE AMERICA MAYORISTA                            201006103001San Juan     Resp.Inscripto                                0                                                 0              H08                                                              
-      7     CARIBE S.R.L                                      201007103001San Juan     Resp.Inscripto                 CIUDAD         0                                                 4213816        O09                                                              
-      8     CARNAVALITO (JACHAL)                              201008103001San Juan     Resp.Inscripto                 JACHAL         0                                                 0              I06                                                              
-      9     CASA SILVIA                                       201009103001Capital FederResp.Inscripto                 25 DE MAYO     5400                                              0              Y43                                                              
-      10    CASTILLO R.L.                                     201010103001San Juan     Resp.Inscripto                 JACHAL         0                                                 02647-420376   V24                                                              
 
 
 
@@ -3021,54 +2820,6 @@ CONOMBRE
 03RECURSOS                      
 04GASTOS                        
 
-
-
---------------------------------------------------------------------------------
-TABLA: TABLA15
-ARCHIVO: V:\VOLEYNUEVO\CONTA-UPCN\TABLA15.DBF
-ESTRUCTURA DE CAMPOS:
-  FECHA                Tipo: D Long: 8 Dec: 0
-  CODIGO               Tipo: C Long: 8 Dec: 0
-  DETALLE              Tipo: C Long: 100 Dec: 0
-  LEYENDA              Tipo: C Long: 50 Dec: 0
-  DEBE                 Tipo: N Long: 14 Dec: 2
-  HABER                Tipo: N Long: 14 Dec: 2
-  DEBEHABER            Tipo: C Long: 1 Dec: 0
-  REGISTRO             Tipo: N Long: 10 Dec: 0
-  NRO_CHEQUE           Tipo: C Long: 10 Dec: 0
-  PERIODO              Tipo: C Long: 6 Dec: 0
-  NROASIENTO           Tipo: C Long: 6 Dec: 0
-  PAG_PROV             Tipo: C Long: 6 Dec: 0
-  INGRESO1             Tipo: C Long: 6 Dec: 0
-  FACCOM               Tipo: C Long: 20 Dec: 0
-  NUM_LIQUI            Tipo: C Long: 6 Dec: 0
-  IDCAJA               Tipo: I Long: 4 Dec: 0
-  TRANSFE              Tipo: C Long: 6 Dec: 0
-  INGEGR               Tipo: N Long: 1 Dec: 0
-  UNICO                Tipo: C Long: 10 Dec: 0
-  CHEQUETER            Tipo: C Long: 6 Dec: 0
-  NROBANCO             Tipo: C Long: 6 Dec: 0
-  FACTURA              Tipo: C Long: 14 Dec: 0
-  TIPO                 Tipo: C Long: 1 Dec: 0
-  CAJA_RE              Tipo: C Long: 9 Dec: 0
-  NUEVO_NRO            Tipo: C Long: 6 Dec: 0
-  EGRESO1              Tipo: C Long: 6 Dec: 0
-  IDCIERRE             Tipo: I Long: 4 Dec: 0
-  PERANT               Tipo: C Long: 6 Dec: 0
-  NROASIANT            Tipo: C Long: 6 Dec: 0
-  QUITADELE            Tipo: D Long: 8 Dec: 0
-  IDASIENTO            Tipo: N Long: 10 Dec: 0
-  IDAJUSTE             Tipo: I Long: 4 Dec: 0
-  AJUSTEINF            Tipo: N Long: 1 Dec: 0
-  OPCREA               Tipo: N Long: 3 Dec: 0
-  FECCREA              Tipo: T Long: 8 Dec: 0
-  OPMODI               Tipo: N Long: 3 Dec: 0
-  FECMODI              Tipo: T Long: 8 Dec: 0
-  OPANULA              Tipo: N Long: 3 Dec: 0
-  FECANULA             Tipo: T Long: 8 Dec: 0
-  NOAJUSTAR            Tipo: N Long: 1 Dec: 0
-INDICES (CDX):
-  Tag: CODIGO  Key: CODIGO
 
 
 --------------------------------------------------------------------------------
@@ -3397,28 +3148,6 @@ INDICES (CDX):
 
 
 --------------------------------------------------------------------------------
-TABLA: TRASPASO_BANCO2
-ARCHIVO: V:\VOLEYNUEVO\CONTA-UPCN\TRASPASO_BANCO2.DBF
-ESTRUCTURA DE CAMPOS:
-  FECHA                Tipo: C Long: 10 Dec: 0
-  NADA1                Tipo: C Long: 1 Dec: 0
-  FECMOV               Tipo: C Long: 10 Dec: 0
-  NADA2                Tipo: C Long: 1 Dec: 0
-  CODIGO               Tipo: C Long: 7 Dec: 0
-  NADA3                Tipo: C Long: 1 Dec: 0
-  DETALLE              Tipo: C Long: 27 Dec: 0
-  NADA4                Tipo: C Long: 4 Dec: 0
-  NUMERO               Tipo: C Long: 10 Dec: 0
-  NADA5                Tipo: C Long: 1 Dec: 0
-  IMPORTE              Tipo: C Long: 15 Dec: 0
-  SIGNO1               Tipo: C Long: 1 Dec: 0
-  NADA6                Tipo: C Long: 1 Dec: 0
-  SALDO                Tipo: C Long: 15 Dec: 0
-  SIGNO                Tipo: C Long: 1 Dec: 0
-INDICES (CDX):
-
-
---------------------------------------------------------------------------------
 TABLA: VENCI_COMPRA
 ARCHIVO: V:\VOLEYNUEVO\CONTA-UPCN\VENCI_COMPRA.DBF
 ESTRUCTURA DE CAMPOS:
@@ -3442,18 +3171,6 @@ PROVEEFACTURA       NUDIAFECVEN
 000005FA0001000119480130 11/16/05
 000010FA0001000119480130 11/16/05
 000004FA0001000461810130 11/16/05
-
-
-
---------------------------------------------------------------------------------
-TABLA: VENCI_COMPRAS
-ARCHIVO: V:\VOLEYNUEVO\CONTA-UPCN\VENCI_COMPRAS.DBF
-ESTRUCTURA DE CAMPOS:
-  FACTURA              Tipo: C Long: 14 Dec: 0
-INDICES (CDX):
-DATOS (MUESTRA HASTA 10 REGISTROS - FORMATO SDF):
-FACTURA       
-              
 
 
 
