@@ -253,56 +253,6 @@ PERIODNROASIFECHA   EOBS                                                        
 
 
 --------------------------------------------------------------------------------
-TABLA: AUXSUMSAL
-ARCHIVO: V:\VOLEYNUEVO\CONTA-UPCN\AUXSUMSAL.DBF
-ESTRUCTURA DE CAMPOS:
-  NROASIENTO           Tipo: C Long: 6 Dec: 0
-  FECHA                Tipo: D Long: 8 Dec: 0
-  CODIGO               Tipo: C Long: 6 Dec: 0
-  LEYENDA              Tipo: C Long: 100 Dec: 0
-  DETALLE              Tipo: C Long: 150 Dec: 0
-  OBS                  Tipo: C Long: 100 Dec: 0
-  DEBE                 Tipo: N Long: 20 Dec: 2
-  HABER                Tipo: N Long: 20 Dec: 2
-  SALDO_ANT            Tipo: N Long: 20 Dec: 2
-  SALDO                Tipo: N Long: 20 Dec: 2
-  SALDO_GEN            Tipo: N Long: 20 Dec: 2
-  NUEVO                Tipo: C Long: 1 Dec: 0
-  SUMA                 Tipo: C Long: 6 Dec: 0
-  NIVEL                Tipo: I Long: 4 Dec: 0
-  ACUMULA              Tipo: C Long: 1 Dec: 0
-INDICES (CDX):
-
-
---------------------------------------------------------------------------------
-TABLA: AUX_DETACONT
-ARCHIVO: V:\VOLEYNUEVO\CONTA-UPCN\AUX_DETACONT.DBF
-ESTRUCTURA DE CAMPOS:
-  PERIODO              Tipo: C Long: 6 Dec: 0
-  FECHA                Tipo: D Long: 8 Dec: 0
-  NROASIENTO           Tipo: C Long: 6 Dec: 0
-  TIPO_ASI             Tipo: C Long: 3 Dec: 0
-  DETALLE              Tipo: C Long: 50 Dec: 0
-  LEYENDA              Tipo: C Long: 50 Dec: 0
-  UNICO                Tipo: C Long: 10 Dec: 0
-INDICES (CDX):
-
-
---------------------------------------------------------------------------------
-TABLA: AUX_IMPASIENTO
-ARCHIVO: V:\VOLEYNUEVO\CONTA-UPCN\AUX_IMPASIENTO.DBF
-ESTRUCTURA DE CAMPOS:
-  CODIGO               Tipo: C Long: 8 Dec: 0
-  DEBE                 Tipo: N Long: 14 Dec: 2
-  HABER                Tipo: N Long: 14 Dec: 2
-  DEBEHABER            Tipo: C Long: 1 Dec: 0
-  DETALLE              Tipo: C Long: 100 Dec: 0
-  FECHA                Tipo: D Long: 8 Dec: 0
-  LEYENDA              Tipo: C Long: 50 Dec: 0
-INDICES (CDX):
-
-
---------------------------------------------------------------------------------
 TABLA: BANCOS
 ARCHIVO: V:\VOLEYNUEVO\CONTA-UPCN\BANCOS.DBF
 ESTRUCTURA DE CAMPOS:
@@ -1856,37 +1806,6 @@ INDICES (CDX):
 DATOS (MUESTRA HASTA 10 REGISTROS - FORMATO SDF):
 NUMEROFECHA   TIPCUENOMCUENTA                                         DET_NUM_LIQUI  PROVEENOMPRO                                  TOTAL     COMISION  INSUMOS   OTROS_DES PER_IVRETENCION IVA       EXENTO    GRAVADO   NETO      TOT       TOT_LIQUI CHEQUE    DEPOSITO  EFECTIVO  FECHAREA
         /  /                                                                                                                       0         0         0         0               0         0         0         0         0         0         0         0         0         0           /  /  
-
-
-
---------------------------------------------------------------------------------
-TABLA: LISTADO_INGRESOS
-ARCHIVO: V:\VOLEYNUEVO\CONTA-UPCN\LISTADO_INGRESOS.DBF
-ESTRUCTURA DE CAMPOS:
-  NUMERO               Tipo: C Long: 6 Dec: 0
-  CUENTA_TES           Tipo: C Long: 3 Dec: 0
-  NOM_CUENTA           Tipo: C Long: 50 Dec: 0
-  FECHA                Tipo: D Long: 8 Dec: 0
-  DETALLE              Tipo: C Long: 180 Dec: 0
-  TARJETA              Tipo: N Long: 10 Dec: 2
-  CHEQUE               Tipo: N Long: 10 Dec: 2
-  EFECTIVO             Tipo: N Long: 10 Dec: 2
-  IMPORTE              Tipo: N Long: 10 Dec: 2
-INDICES (CDX):
-
-
---------------------------------------------------------------------------------
-TABLA: LISTADO_TRANSFERENCIAS
-ARCHIVO: V:\VOLEYNUEVO\CONTA-UPCN\LISTADO_TRANSFERENCIAS.DBF
-ESTRUCTURA DE CAMPOS:
-  TRANSFE              Tipo: C Long: 6 Dec: 0
-  FECHA_EMISION        Tipo: D Long: 8 Dec: 0
-  DETALLE              Tipo: C Long: 100 Dec: 0
-  TOTAL                Tipo: N Long: 16 Dec: 2
-INDICES (CDX):
-DATOS (MUESTRA HASTA 10 REGISTROS - FORMATO SDF):
-TRANSFFECHA_EMDETALLE                                                                                             TOTAL           
-        /  /                                                                                                      0               
 
 
 
