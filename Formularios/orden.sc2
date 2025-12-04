@@ -7,53 +7,6 @@
 DEFINE CLASS dataenvironment AS dataenvironment 
  	*< CLASSDATA: Baseclass="dataenvironment" Timestamp="" Scale="" Uniqueid="" ClassIcon="1" />
 
-	*-- OBJECTDATA items order determines ZOrder / El orden de los items OBJECTDATA determina el ZOrder 
-	*< OBJECTDATA: ObjPath="Cursor1" UniqueID="" Timestamp="" />
-	*< OBJECTDATA: ObjPath="Cursor2" UniqueID="" Timestamp="" />
-	*< OBJECTDATA: ObjPath="Cursor3" UniqueID="" Timestamp="" />
-	*< OBJECTDATA: ObjPath="Cursor4" UniqueID="" Timestamp="" />
-	*< OBJECTDATA: ObjPath="Cursor5" UniqueID="" Timestamp="" />
-	*< OBJECTDATA: ObjPath="Cursor6" UniqueID="" Timestamp="" />
-	*< OBJECTDATA: ObjPath="Cursor7" UniqueID="" Timestamp="" />
-	*< OBJECTDATA: ObjPath="Cursor8" UniqueID="" Timestamp="" />
-	*< OBJECTDATA: ObjPath="Cursor9" UniqueID="" Timestamp="" />
-	*< OBJECTDATA: ObjPath="Cursor10" UniqueID="" Timestamp="" />
-	*< OBJECTDATA: ObjPath="Cursor11" UniqueID="" Timestamp="" />
-	*< OBJECTDATA: ObjPath="Cursor12" UniqueID="" Timestamp="" />
-	*< OBJECTDATA: ObjPath="Cursor13" UniqueID="" Timestamp="" />
-	*< OBJECTDATA: ObjPath="Cursor14" UniqueID="" Timestamp="" />
-	*< OBJECTDATA: ObjPath="Cursor15" UniqueID="" Timestamp="" />
-	*< OBJECTDATA: ObjPath="Cursor16" UniqueID="" Timestamp="" />
-	*< OBJECTDATA: ObjPath="Cursor17" UniqueID="" Timestamp="" />
-	*< OBJECTDATA: ObjPath="Cursor18" UniqueID="" Timestamp="" />
-	*< OBJECTDATA: ObjPath="Cursor19" UniqueID="" Timestamp="" />
-	*< OBJECTDATA: ObjPath="Cursor20" UniqueID="" Timestamp="" />
-	*< OBJECTDATA: ObjPath="Cursor21" UniqueID="" Timestamp="" />
-	*< OBJECTDATA: ObjPath="Cursor22" UniqueID="" Timestamp="" />
-	*< OBJECTDATA: ObjPath="Cursor23" UniqueID="" Timestamp="" />
-	*< OBJECTDATA: ObjPath="Cursor24" UniqueID="" Timestamp="" />
-	*< OBJECTDATA: ObjPath="Cursor25" UniqueID="" Timestamp="" />
-	*< OBJECTDATA: ObjPath="Cursor26" UniqueID="" Timestamp="" />
-	*< OBJECTDATA: ObjPath="Cursor27" UniqueID="" Timestamp="" />
-	*< OBJECTDATA: ObjPath="Cursor28" UniqueID="" Timestamp="" />
-	*< OBJECTDATA: ObjPath="Cursor29" UniqueID="" Timestamp="" />
-	*< OBJECTDATA: ObjPath="Cursor30" UniqueID="" Timestamp="" />
-	*< OBJECTDATA: ObjPath="Cursor31" UniqueID="" Timestamp="" />
-	*< OBJECTDATA: ObjPath="Cursor32" UniqueID="" Timestamp="" />
-	*< OBJECTDATA: ObjPath="Cursor33" UniqueID="" Timestamp="" />
-	*< OBJECTDATA: ObjPath="Cursor34" UniqueID="" Timestamp="" />
-	*< OBJECTDATA: ObjPath="Cursor35" UniqueID="" Timestamp="" />
-	*< OBJECTDATA: ObjPath="Cursor36" UniqueID="" Timestamp="" />
-	*< OBJECTDATA: ObjPath="Cursor37" UniqueID="" Timestamp="" />
-	*< OBJECTDATA: ObjPath="Cursor38" UniqueID="" Timestamp="" />
-	*< OBJECTDATA: ObjPath="Cursor39" UniqueID="" Timestamp="" />
-	*< OBJECTDATA: ObjPath="Cursor40" UniqueID="" Timestamp="" />
-	*< OBJECTDATA: ObjPath="Cursor41" UniqueID="" Timestamp="" />
-	*< OBJECTDATA: ObjPath="Cursor43" UniqueID="" Timestamp="" />
-	*< OBJECTDATA: ObjPath="Cursor44" UniqueID="" Timestamp="" />
-	*< OBJECTDATA: ObjPath="Cursor42" UniqueID="" Timestamp="" />
-	*< OBJECTDATA: ObjPath="Cursor45" UniqueID="" Timestamp="" />
-
 	*<PropValue>
 		DataSource = .NULL.
 		Height = 795
@@ -1003,13 +956,13 @@ DEFINE CLASS formmsde1 AS formmsde OF "msde.vcx"
 		Grid1.Column1.Header1.Name = "Header1", ;
 		Grid1.Column1.Name = "Column1", ;
 		Grid1.Column1.Text1.Name = "Text1", ;
-		Grid1.Column2.Header1.Caption = "N° comprobante", ;
+		Grid1.Column2.Header1.Caption = "Nï¿½ comprobante", ;
 		Grid1.Column2.Header1.FontBold = .F., ;
 		Grid1.Column2.Header1.ForeColor = 0,0,128, ;
 		Grid1.Column2.Header1.Name = "Header1", ;
 		Grid1.Column2.Name = "Column2", ;
 		Grid1.Column2.Text1.Name = "Text1", ;
-		Grid1.Column3.Header1.Caption = "Emisión", ;
+		Grid1.Column3.Header1.Caption = "Emisiï¿½n", ;
 		Grid1.Column3.Header1.FontBold = .F., ;
 		Grid1.Column3.Header1.ForeColor = 0,0,128, ;
 		Grid1.Column3.Header1.Name = "Header1", ;
@@ -1552,7 +1505,7 @@ DEFINE CLASS formmsde1 AS formmsde OF "msde.vcx"
 
 	ADD OBJECT 'Grid1.Column1.Header1' AS header WITH ;
 		Alignment = 2, ;
-		Caption = "Cód", ;
+		Caption = "Cï¿½d", ;
 		FontSize = 8, ;
 		Name = "Header1"
 		*< END OBJECT: BaseClass="header" />
@@ -1766,7 +1719,7 @@ DEFINE CLASS formmsde1 AS formmsde OF "msde.vcx"
 	ADD OBJECT 'Grid2.Column2.Header1' AS header WITH ;
 		Alignment = 2, ;
 		BackColor = 192,192,192, ;
-		Caption = "N°Factura", ;
+		Caption = "Nï¿½Factura", ;
 		FontBold = .F., ;
 		FontSize = 8, ;
 		ForeColor = 0,0,160, ;
@@ -1945,7 +1898,7 @@ DEFINE CLASS formmsde1 AS formmsde OF "msde.vcx"
 
 	ADD OBJECT 'Grid3.Column2.Header1' AS header WITH ;
 		Alignment = 2, ;
-		Caption = "N°Factura", ;
+		Caption = "Nï¿½Factura", ;
 		FontBold = .F., ;
 		FontSize = 8, ;
 		ForeColor = 0,0,160, ;
@@ -2051,7 +2004,7 @@ DEFINE CLASS formmsde1 AS formmsde OF "msde.vcx"
 
 	ADD OBJECT 'Grid4.Column1.Header1' AS header WITH ;
 		Alignment = 2, ;
-		Caption = "Cód", ;
+		Caption = "Cï¿½d", ;
 		FontSize = 8, ;
 		Name = "Header1"
 		*< END OBJECT: BaseClass="header" />
@@ -2381,7 +2334,7 @@ DEFINE CLASS formmsde1 AS formmsde OF "msde.vcx"
 	ADD OBJECT 'LBLCODIGO1' AS embossedlabel WITH ;
 		AutoSize = .T., ;
 		BackStyle = 0, ;
-		Caption = "Código:", ;
+		Caption = "Cï¿½digo:", ;
 		FontBold = .F., ;
 		FontSize = 8, ;
 		ForeColor = 255,255,255, ;
@@ -2397,7 +2350,7 @@ DEFINE CLASS formmsde1 AS formmsde OF "msde.vcx"
 	ADD OBJECT 'LBLNROORD1' AS embossedlabel WITH ;
 		AutoSize = .T., ;
 		BackStyle = 0, ;
-		Caption = "Nº orden:", ;
+		Caption = "Nï¿½ orden:", ;
 		FontBold = .F., ;
 		FontSize = 8, ;
 		ForeColor = 255,255,255, ;
@@ -2478,7 +2431,7 @@ DEFINE CLASS formmsde1 AS formmsde OF "msde.vcx"
 
 	ADD OBJECT 'reintegros.Label10' AS label WITH ;
 		BackStyle = 0, ;
-		Caption = "Cód Descuento:", ;
+		Caption = "Cï¿½d Descuento:", ;
 		FontBold = .T., ;
 		FontSize = 8, ;
 		ForeColor = 0,64,128, ;
@@ -2799,7 +2752,7 @@ DEFINE CLASS formmsde1 AS formmsde OF "msde.vcx"
 	ADD OBJECT 'Reposicion' AS checkbox WITH ;
 		BackColor = 255,255,128, ;
 		BackStyle = 1, ;
-		Caption = "    Reposición Saldo Fijo - para Salon Venta Ordenes", ;
+		Caption = "    Reposiciï¿½n Saldo Fijo - para Salon Venta Ordenes", ;
 		FontBold = .T., ;
 		FontSize = 8, ;
 		ForeColor = 0,64,128, ;
@@ -3295,7 +3248,7 @@ DEFINE CLASS formmsde1 AS formmsde OF "msde.vcx"
 		imgImage.Picture = xp-continue.gif, ;
 		imgImage.Top = 4, ;
 		imgImage.Width = 13, ;
-		lblText.Caption = "Aplicar Comisión:", ;
+		lblText.Caption = "Aplicar Comisiï¿½n:", ;
 		lblText.FontSize = 8, ;
 		lblText.Left = 17, ;
 		lblText.Name = "lblText", ;
@@ -3673,7 +3626,7 @@ DEFINE CLASS formmsde1 AS formmsde OF "msde.vcx"
 						set order to pag_prov
 						seek cam
 						if found()
-							thisform.asiento1.nro.caption="Asiento N°: "+alltr(movicont.nroasiento)
+							thisform.asiento1.nro.caption="Asiento Nï¿½: "+alltr(movicont.nroasiento)
 							do while not eof() and pag_prov=cam
 								scatte memvar
 								m.registro=recno()
@@ -3716,7 +3669,7 @@ DEFINE CLASS formmsde1 AS formmsde OF "msde.vcx"
 						repl nroasiento with asiento
 						repl periodo with _periodosele &&periodo_actual.periodo
 						repl unico with uni
-						repl detalle with 'Pago N°: '+cam+' '+thisform.text12.value
+						repl detalle with 'Pago Nï¿½: '+cam+' '+thisform.text12.value
 						repl leyenda with Alltrim(thisform.text4.value)
 						repl fecha    with thisform.text7.value					
 						repl pag_prov with cam
@@ -3837,7 +3790,7 @@ DEFINE CLASS formmsde1 AS formmsde OF "msde.vcx"
 			do while not eof() 
 				if val(codigo_ban)#0
 			
-					&& debo ver si el cheque, es un cheque que se entrego in registracion de comprobante, en este caso, debo invertir el asiento que se realizó en el Egreso. marce 26-02-2013
+					&& debo ver si el cheque, es un cheque que se entrego in registracion de comprobante, en este caso, debo invertir el asiento que se realizï¿½ en el Egreso. marce 26-02-2013
 					_cuenta=''
 					sele movimientos_bancos
 					set order to numero
@@ -3876,7 +3829,7 @@ DEFINE CLASS formmsde1 AS formmsde OF "msde.vcx"
 			go top
 			do while not eof() and val(codigo_ban)#0
 			
-					&& debo ver si el cheque, es un cheque que se entrego in registracion de comprobante, en este caso, debo invertir el asiento que se realizó en el Egreso. marce 26-02-2013
+					&& debo ver si el cheque, es un cheque que se entrego in registracion de comprobante, en este caso, debo invertir el asiento que se realizï¿½ en el Egreso. marce 26-02-2013
 					_cuenta=''
 					select bancos
 					set order to codigo
@@ -4175,7 +4128,7 @@ DEFINE CLASS formmsde1 AS formmsde OF "msde.vcx"
 			scan
 				select imp_orden
 				append blank
-				repl detalle with "N° Comprobante : "+aux_faccomsele.numero
+				repl detalle with "Nï¿½ Comprobante : "+aux_faccomsele.numero
 				repl fecha with aux_faccomsele.fecha
 				repl tipo with 1
 				if inlist(left(aux_faccomsele.numero,1),"C","A")
@@ -4242,7 +4195,7 @@ DEFINE CLASS formmsde1 AS formmsde OF "msde.vcx"
 				if val(deposito.codigo_ban)#0
 					select imp_orden
 					append blank
-					repl detalle with "N° Cheque : "+deposito.Numero_com+" Banco : "+vercod("bancos",deposito.codigo_ban)
+					repl detalle with "Nï¿½ Cheque : "+deposito.Numero_com+" Banco : "+vercod("bancos",deposito.codigo_ban)
 					repl fecha with deposito.fecha_venc
 					repl tipo with 2
 					repl importe with deposito.importe
@@ -4270,7 +4223,7 @@ DEFINE CLASS formmsde1 AS formmsde OF "msde.vcx"
 				if copiado=1
 					select imp_orden
 					append blank
-					repl detalle with "N° Cheque : "+aux_terceros2.comproban+" Banco : "+aux_terceros2.banco
+					repl detalle with "Nï¿½ Cheque : "+aux_terceros2.comproban+" Banco : "+aux_terceros2.banco
 					repl fecha with aux_terceros2.fechaven
 					repl tipo with 2
 					repl importe with aux_terceros2.importe
@@ -4621,9 +4574,9 @@ DEFINE CLASS formmsde1 AS formmsde OF "msde.vcx"
 		thisform.check_pagar.Value=0
 		thisform.text12.Value=''
 		
-		*---- Ver si hay conexión a sql
+		*---- Ver si hay conexiï¿½n a sql
 		If thisform.conectar_sql()<>0
-			MessageBox("No tiene Conexión con de Sistema de Ordenes.",48,"Aviso")
+			MessageBox("No tiene Conexiï¿½n con de Sistema de Ordenes.",48,"Aviso")
 			return
 		EndIf
 		
@@ -4637,7 +4590,7 @@ DEFINE CLASS formmsde1 AS formmsde OF "msde.vcx"
 				Go top
 				*Browse
 				thisform.reintegros.txtnumero.Value=idcomprobante  && thisform.txtreintegro.Value
-				thisform.reintegros.txtperiodo.Value=año+'-'+mes
+				thisform.reintegros.txtperiodo.Value=aï¿½o+'-'+mes
 				thisform.reintegros.txtdocumento.Value=documento
 				thisform.reintegros.txtnombre.value=nomafiliado
 				thisform.reintegros.txtlegajo.value=''
@@ -4708,7 +4661,7 @@ DEFINE CLASS formmsde1 AS formmsde OF "msde.vcx"
 						thisform.reintegros.txtpagado.Value=_nrorec
 					endif
 		
-					If _anulados=Reccount()  && si todos los items están anulados marco todo como Anulado.
+					If _anulados=Reccount()  && si todos los items estï¿½n anulados marco todo como Anulado.
 						thisform.reintegros.check_anulado.Value=1
 					endif
 					
@@ -5161,7 +5114,7 @@ DEFINE CLASS formmsde1 AS formmsde OF "msde.vcx"
 				thisform.Grid4.Column5.text1.value=0
 				*thisform.Grid4.Column6.text1.value=0
 				this.value=""
-				messagebox("Código de Alicuotas Incorrecto",48,"Control")
+				messagebox("Cï¿½digo de Alicuotas Incorrecto",48,"Control")
 				node
 			endif
 		else	
@@ -5326,7 +5279,7 @@ DEFINE CLASS formmsde1 AS formmsde OF "msde.vcx"
 						   		if inlist(subst(aux_faccom.numero,2,1),"B","A")
 								    neto=(_saldo/1.21)
 								Else
-								    *neto=aux_faccom.saldo && Quitar porque deja como base el valor de la 1ª orden q supera los 500.
+								    *neto=aux_faccom.saldo && Quitar porque deja como base el valor de la 1ï¿½ orden q supera los 500.
 								    *neto=0
 								    If Alltrim(THISFORM.CONdicion)='Resp.Inscripto'
 								    	neto=(_saldo/1.21)
@@ -5821,7 +5774,7 @@ DEFINE CLASS formmsde1 AS formmsde OF "msde.vcx"
 										   'El '+Left(Ttoc(fe),10)+' a las '+Right(Ttoc(fe),8),64,'Aviso')
 							EndIf
 						Else
-							MessageBox('Nº Orden Inexistente',48,'Aviso')
+							MessageBox('Nï¿½ Orden Inexistente',48,'Aviso')
 						EndIf
 						Set Deleted on
 					EndIf 
@@ -5903,7 +5856,7 @@ DEFINE CLASS formmsde1 AS formmsde OF "msde.vcx"
 					thisform.asiento1.grid1.refresh
 				endif	
 			else
-				=messagebox('No se puede perder la correlatividad de las ordenes de pago.'+chr(13)+'El próximo a cargar es el N°: '+ceros(str(thisform.ultimo+1,6),6),48,'Control')	
+				=messagebox('No se puede perder la correlatividad de las ordenes de pago.'+chr(13)+'El prï¿½ximo a cargar es el Nï¿½: '+ceros(str(thisform.ultimo+1,6),6),48,'Control')	
 				this.value=ceros(str(thisform.ultimo+1,6),6)
 				node
 			endif	
@@ -5933,7 +5886,7 @@ DEFINE CLASS formmsde1 AS formmsde OF "msde.vcx"
 		endif
 		
 		*-- Paso datos al Formulario para realizar el pago. ------------------------------------------------------------------
-		thisform.text12.Value=Alltrim(thisform.reintegros.txtnombre.Value)+' - REINTEGRO N°: '+Alltrim(THISFORM.REIntegros.TXTNUmero.Value)
+		thisform.text12.Value=Alltrim(thisform.reintegros.txtnombre.Value)+' - REINTEGRO Nï¿½: '+Alltrim(THISFORM.REIntegros.TXTNUmero.Value)
 		THISFORM.TEXT5.Value=thisform.reintegros.txtimporte.Value
 		thisform.check_pagar.Value=1
 		*---------------------------------------------------------------------------------------------------------------
@@ -6542,7 +6495,7 @@ DEFINE CLASS formmsde1 AS formmsde OF "msde.vcx"
 					scan
 						_msj=_msj + dtoc(Fecha)+'-'
 					endscan
-					messagebox("Hay Reposiciones de Fondo Fijo pendiente de Cierre,"+chr(13)+"el Cajero debe realizar la Rendición antes de Reponer Nuevamente"+chr(13)+"Fechas a Rendir: "+_msj,48,"Control")
+					messagebox("Hay Reposiciones de Fondo Fijo pendiente de Cierre,"+chr(13)+"el Cajero debe realizar la Rendiciï¿½n antes de Reponer Nuevamente"+chr(13)+"Fechas a Rendir: "+_msj,48,"Control")
 					return
 				endif
 			else
@@ -6552,7 +6505,7 @@ DEFINE CLASS formmsde1 AS formmsde OF "msde.vcx"
 				if recc()>0
 					go top
 					if idrendicion<>0
-						messagebox("La reposición de Fondo Fijo ya fue Rendida, no se puede modificar, debe Anular la Rendición si desea hacerlo")
+						messagebox("La reposiciï¿½n de Fondo Fijo ya fue Rendida, no se puede modificar, debe Anular la Rendiciï¿½n si desea hacerlo")
 						return
 					endif
 		
@@ -6604,7 +6557,7 @@ DEFINE CLASS formmsde1 AS formmsde OF "msde.vcx"
 						_ultimo=Val(nroord)
 						If Val(thisform.nroORD1.Value)<>(_ultimo+1)
 							thisform.nroORD1.Value=ceros(Alltrim(Str(_ultimo+1)),6)
-							MessageBox("Otro operador utilizó este Número de Orden, se asignará el Nro: "+thisform.nroORD1.Value,48,"Control")
+							MessageBox("Otro operador utilizï¿½ este Nï¿½mero de Orden, se asignarï¿½ el Nro: "+thisform.nroORD1.Value,48,"Control")
 						endif
 					EndIf
 							
@@ -6636,7 +6589,7 @@ DEFINE CLASS formmsde1 AS formmsde OF "msde.vcx"
 						repl fecha_emision with thisform.text7.value
 						repl tipo_movimiento with '006'
 						repl debe_haber with 'D'
-						repl detalle with "O.P.N°: "+thisform.Nroord1.value+" "+Alltr(thisform.text4.value)+" "+alltr(thisform.text12.value)
+						repl detalle with "O.P.Nï¿½: "+thisform.Nroord1.value+" "+Alltr(thisform.text4.value)+" "+alltr(thisform.text12.value)
 						repl importe with thisform.text5.value 
 					Endif
 					******* Grabo Efectivo en Mayor de Tesereria *******
@@ -6655,7 +6608,7 @@ DEFINE CLASS formmsde1 AS formmsde OF "msde.vcx"
 						repl fecha_emision with thisform.text7.value
 						repl tipo_movimiento with '006'
 						repl debe_haber with 'H'
-						repl detalle with "O.P.N°: "+thisform.Nroord1.value+" "+Alltr(thisform.text4.value)+" "+alltr(thisform.text12.value)
+						repl detalle with "O.P.Nï¿½: "+thisform.Nroord1.value+" "+Alltr(thisform.text4.value)+" "+alltr(thisform.text12.value)
 						repl importe with thisform.text11.value 
 					Endif			
 					select aux_faccomsele
@@ -6693,7 +6646,7 @@ DEFINE CLASS formmsde1 AS formmsde OF "msde.vcx"
 					
 					
 					**--Grabo reposicion en sql-----------------------------------------------------------------------------------
-					if thisform.reposicion.value=1 && Reposición de Fondo Fijo.
+					if thisform.reposicion.value=1 && Reposiciï¿½n de Fondo Fijo.
 					
 						_cod=thisform.codigo1.value
 						_saldo=0.00
@@ -6767,7 +6720,7 @@ DEFINE CLASS formmsde1 AS formmsde OF "msde.vcx"
 							endif	
 						endif	
 						
-						&& Si es un movimiento de cheque pendiente de registración, se debe grabar en Movimientos Bancos, en la cuenta de fondo Documentación Pendiente.
+						&& Si es un movimiento de cheque pendiente de registraciï¿½n, se debe grabar en Movimientos Bancos, en la cuenta de fondo Documentaciï¿½n Pendiente.
 						sele deposito
 						if pend_reg=1 and val(codigo_ban)#0
 							select movimientos_bancos
@@ -6779,7 +6732,7 @@ DEFINE CLASS formmsde1 AS formmsde OF "msde.vcx"
 							repl fecha_emision with thisform.text7.value
 							repl tipo_movimiento with '006'  && Transferencias
 							repl debe_haber with 'H'
-							repl detalle with "Orden de Pago Nº: "+thisform.nroord1.value &&+" "+Alltr(thisform.text4.value)+" "+alltr(thisform.text12.value)
+							repl detalle with "Orden de Pago Nï¿½: "+thisform.nroord1.value &&+" "+Alltr(thisform.text4.value)+" "+alltr(thisform.text12.value)
 							repl importe with deposito.importe
 							repl egreso with ''
 							
@@ -6807,7 +6760,7 @@ DEFINE CLASS formmsde1 AS formmsde OF "msde.vcx"
 						m.pagprov=thisform.nroord1.value
 						m.tipo_banco="S"
 						m.Det_CodBan=vercod("bancos",deposito2.codigo_ban)
-						m.detalle='O.P.N°:'+thisform.nroORD1.Value+' Pago por Transf. Electrónica'
+						m.detalle='O.P.Nï¿½:'+thisform.nroORD1.Value+' Pago por Transf. Electrï¿½nica'
 			
 						select movimientos_bancos
 						if m.registro=0
@@ -7106,7 +7059,7 @@ DEFINE CLASS formmsde1 AS formmsde OF "msde.vcx"
 					scan
 						_msj=_msj + dtoc(Fecha)+'-'
 					endscan
-					messagebox("Hay Reposiciones de Fondo Fijo pendiente de Cierre,"+chr(13)+"el Cajero debe realizar la Rendición antes de Reponer Nuevamente"+chr(13)+"Fechas a Rendir: "+_msj,48,"Control")
+					messagebox("Hay Reposiciones de Fondo Fijo pendiente de Cierre,"+chr(13)+"el Cajero debe realizar la Rendiciï¿½n antes de Reponer Nuevamente"+chr(13)+"Fechas a Rendir: "+_msj,48,"Control")
 					return
 				endif
 			else
@@ -7116,7 +7069,7 @@ DEFINE CLASS formmsde1 AS formmsde OF "msde.vcx"
 				if recc()>0
 					go top
 					if idrendicion<>0
-						messagebox("La reposición de Fondo Fijo ya fue Rendida, no se puede modificar, debe Anular la Rendición si desea hacerlo")
+						messagebox("La reposiciï¿½n de Fondo Fijo ya fue Rendida, no se puede modificar, debe Anular la Rendiciï¿½n si desea hacerlo")
 						return
 					endif
 		
@@ -7136,7 +7089,7 @@ DEFINE CLASS formmsde1 AS formmsde OF "msde.vcx"
 				thisform.txtreintegro.Value=''
 			EndIf
 			If Val(thisform.txtreintegro.value)<>0 and thisform.check_pagar.Value=0	
-				MessageBox("El reintegro No está marcado para ser pagado en estar Orden, se limpiará el Dato",48,"Control")
+				MessageBox("El reintegro No estï¿½ marcado para ser pagado en estar Orden, se limpiarï¿½ el Dato",48,"Control")
 				thisform.txtreintegro.Value=''
 			EndIf
 			
@@ -7192,7 +7145,7 @@ DEFINE CLASS formmsde1 AS formmsde OF "msde.vcx"
 		*				_ultimo=Val(nroord)
 		*				If Val(thisform.nroORD1.Value)<>(_ultimo+1)
 		*					thisform.nroORD1.Value=ceros(Alltrim(Str(_ultimo+1)),6)
-		*					MessageBox("Otro operador utilizó este Número de Orden, se asignará el Nro: "+thisform.nroORD1.Value,48,"Control")
+		*					MessageBox("Otro operador utilizï¿½ este Nï¿½mero de Orden, se asignarï¿½ el Nro: "+thisform.nroORD1.Value,48,"Control")
 		*				endif
 					EndIf
 							
@@ -7224,7 +7177,7 @@ DEFINE CLASS formmsde1 AS formmsde OF "msde.vcx"
 						repl fecha_emision with thisform.text7.value
 						repl tipo_movimiento with '006'
 						repl debe_haber with 'D'
-						repl detalle with "O.P.N°: "+thisform.Nroord1.value+" "+Alltr(thisform.text4.value)+" "+alltr(thisform.text12.value)
+						repl detalle with "O.P.Nï¿½: "+thisform.Nroord1.value+" "+Alltr(thisform.text4.value)+" "+alltr(thisform.text12.value)
 						repl importe with thisform.text5.value 
 					Endif
 					******* Grabo Efectivo en Mayor de Tesereria *******
@@ -7243,7 +7196,7 @@ DEFINE CLASS formmsde1 AS formmsde OF "msde.vcx"
 						repl fecha_emision with thisform.text7.value
 						repl tipo_movimiento with '006'
 						repl debe_haber with 'H'
-						repl detalle with "O.P.N°: "+thisform.Nroord1.value+" "+Alltr(thisform.text4.value)+" "+alltr(thisform.text12.value)
+						repl detalle with "O.P.Nï¿½: "+thisform.Nroord1.value+" "+Alltr(thisform.text4.value)+" "+alltr(thisform.text12.value)
 						repl importe with thisform.text11.value 
 					Endif			
 					select aux_faccomsele
@@ -7279,7 +7232,7 @@ DEFINE CLASS formmsde1 AS formmsde OF "msde.vcx"
 		*							Return 
 		*						EndIf
 		*					Else
-		*						MessageBox('Nº Orden Inexistente',48,'Aviso')
+		*						MessageBox('Nï¿½ Orden Inexistente',48,'Aviso')
 		*						Return 
 		*					EndIf
 		*				EndIf
@@ -7301,7 +7254,7 @@ DEFINE CLASS formmsde1 AS formmsde OF "msde.vcx"
 					
 					
 					**--Grabo reposicion en sql-----------------------------------------------------------------------------------
-					if thisform.reposicion.value=1 && Reposición de Fondo Fijo.
+					if thisform.reposicion.value=1 && Reposiciï¿½n de Fondo Fijo.
 					
 						_cod=thisform.codigo1.value
 						_saldo=0.00
@@ -7404,7 +7357,7 @@ DEFINE CLASS formmsde1 AS formmsde OF "msde.vcx"
 							endif	
 						endif	
 						
-						&& Si es un movimiento de cheque pendiente de registración, se debe grabar en Movimientos Bancos, en la cuenta de fondo Documentación Pendiente.
+						&& Si es un movimiento de cheque pendiente de registraciï¿½n, se debe grabar en Movimientos Bancos, en la cuenta de fondo Documentaciï¿½n Pendiente.
 						sele deposito
 						if pend_reg=1 and val(codigo_ban)#0
 							select movimientos_bancos
@@ -7416,7 +7369,7 @@ DEFINE CLASS formmsde1 AS formmsde OF "msde.vcx"
 							repl fecha_emision with thisform.text7.value
 							repl tipo_movimiento with '006'  && Transferencias
 							repl debe_haber with 'H'
-							repl detalle with "Orden de Pago Nº: "+thisform.nroord1.value &&+" "+Alltr(thisform.text4.value)+" "+alltr(thisform.text12.value)
+							repl detalle with "Orden de Pago Nï¿½: "+thisform.nroord1.value &&+" "+Alltr(thisform.text4.value)+" "+alltr(thisform.text12.value)
 							repl importe with deposito.importe
 							repl egreso with ''
 							
@@ -7444,7 +7397,7 @@ DEFINE CLASS formmsde1 AS formmsde OF "msde.vcx"
 						m.pagprov=thisform.nroord1.value
 						m.tipo_banco="S"
 						m.Det_CodBan=vercod("bancos",deposito2.codigo_ban)
-						m.detalle='O.P.N°:'+thisform.nroORD1.Value+' Pago por Transf. Electrónica'
+						m.detalle='O.P.Nï¿½:'+thisform.nroORD1.Value+' Pago por Transf. Electrï¿½nica'
 			
 						select movimientos_bancos
 						if m.registro=0
@@ -7692,12 +7645,12 @@ DEFINE CLASS formmsde1 AS formmsde OF "msde.vcx"
 				if recc()>0
 					go top
 					if val(idrendicion)<>0  && como es bigint en la consulta lo trae como string.
-						messagebox("La Reposición de Fondo Fijo ya tiene realizada al Rendición, debe Anular primero la Rendición para Anular la Reposición ",48,"Control")
+						messagebox("La Reposiciï¿½n de Fondo Fijo ya tiene realizada al Rendiciï¿½n, debe Anular primero la Rendiciï¿½n para Anular la Reposiciï¿½n ",48,"Control")
 						return
 					endif
 				endif
 			endif
-			*--- verificar si la orden contiene un cheque que ya ingreso al banco, si es así no se debe permitir eliminar la orden de pago.
+			*--- verificar si la orden contiene un cheque que ya ingreso al banco, si es asï¿½ no se debe permitir eliminar la orden de pago.
 			_ing_banco=0
 			select movimientos_bancos
 			set order to pagprov
@@ -7705,7 +7658,7 @@ DEFINE CLASS formmsde1 AS formmsde OF "msde.vcx"
 			do while not eof() and pagprov=thisform.nroord1.value
 				if Val(num_concilia)<>0
 					MessageBox("No se puede Eliminar la Orden ya que contiene Cheque/s o Pagos por Transf. Elect que ya Ingresaron al Banco"+;
-					Chr(13)+"Cheque/Nro Transf Nro: "+numero_comprobante+"   Conciliación Nro: "+num_concilia,48,"Control")
+					Chr(13)+"Cheque/Nro Transf Nro: "+numero_comprobante+"   Conciliaciï¿½n Nro: "+num_concilia,48,"Control")
 					_ing_banco=_ing_banco + 1
 				endif
 				skip
@@ -7716,18 +7669,18 @@ DEFINE CLASS formmsde1 AS formmsde OF "msde.vcx"
 			*----------------------------------------------------------------------------------------------------------------
 			
 			
-			messagebox("Se Imprimirá un Comprobante de Anulación",48,"Control")
+			messagebox("Se Imprimirï¿½ un Comprobante de Anulaciï¿½n",48,"Control")
 			thisform.imprimir("E")
-			if messagebox("El Comprobante de Anulación se Imprimió Correctamente?",36,"Control")=7
+			if messagebox("El Comprobante de Anulaciï¿½n se Imprimiï¿½ Correctamente?",36,"Control")=7
 				messagebox("La Orden de Pago no fue Eliminada",48,"Control")
 				return
 			endif
 			******* Elimino Anti a Prov *******
 			
-			if thisform.reposicion.value=1  && Orden de Reposición.
+			if thisform.reposicion.value=1  && Orden de Reposiciï¿½n.
 				_error=thisform.msde1.sql2("update ReposicionFondoFijo set anulado=1,opanula="+allt(cod_op)+",fecanula='"+ttoc(datetime())+"' where anulado=0 and ordpago='"+thisform.nroord1.value+"' ")
 				if _error<>0
-					messagebox("Error al intentar anular la Reposición en el Servidor, consulte al Programador",48,"Control")
+					messagebox("Error al intentar anular la Reposiciï¿½n en el Servidor, consulte al Programador",48,"Control")
 					return
 				endif
 		*		_consulta="update movcon set estado='A',anulado='"+TTOC(DATETIME())+"',operanula="+ALLTRIM(STR(_operador))+",Maquina='"+Left(Alltrim(Sys(0)),At("#",Sys(0))-1)+"' where numero='"+ALLTRIM(ThisForm.TxtBono.Value)+"' "
@@ -7932,7 +7885,7 @@ DEFINE CLASS formmsde1 AS formmsde OF "msde.vcx"
 				thisform.Ret_EnCartera1.grid1.column1.text1.setfocus	
 			endif
 		else
-			messagebox("Esta Opción No esta Habilitada para este Tipo de Orden de Pago",48,"Control")	
+			messagebox("Esta Opciï¿½n No esta Habilitada para este Tipo de Orden de Pago",48,"Control")	
 		Endif	
 		
 		
